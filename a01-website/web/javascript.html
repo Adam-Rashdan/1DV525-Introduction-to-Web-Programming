@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Assigment 1| Page</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <a href="page.html">Page</a> | <a href="form.html">Form</a> |
+      <a href="column2.html">Column2</a> | <a href="column3.html">Column3</a> |
+      <a href="image.html">Image</a> |
+      <a href="responsive.html">Responsive</a> |
+      <a href="table.html">Table</a> |
+      <a href="typography.html">Typography</a> |
+      <a href="javascript.html">Javascript</a>
+    </nav>
+    <header>
+      <h2 style="text-align: center">Introduction to web programming</h2>
+      <img
+        alt="site Image"
+        src="img/header-img.jpg"
+        width="100%"
+        height="300px"
+      />
+    </header>
+
+    <main class="main-center">
+      <div>
+        <h2>Press button (Get random word) to get a random word</h2>
+
+        <button type="button" onclick="showRandom()">Get random word</button>
+        <h3 id="word"></h3>
+        <h3 id="vow"></h3>
+        <br />
+        <br />
+        <input type="text" id="letter" required maxlength="1" />
+        <button id="btn" type="button" onclick="checkLetter() ; indexNum() ">
+          Check
+        </button>
+        <h3 id="answer"></h3>
+        <h3 id="result"></h3>
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="col2-triptych">
+        <div class="colu1-triptych">
+          <h3>W3C standard</h3>
+          <ul>
+            <li>
+              <a href="https://www.w3schools.com/html/">
+                HTML Tutorial - W3Schools</a
+              >
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/css/">
+                CSS Tutorial - W3Schools</a
+              >
+            </li>
+            <li>
+              <a href="https://www.w3schools.com/js/"
+                >JavaScript Tutorial - W3Schools</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <aside class="colu2-triptych">
+          <div>
+            <h3>Validator</h3>
+            <ul>
+              <li>
+                <a href="https://validator.w3.org/"> HTML validator</a>
+              </li>
+              <li>
+                <a href="https://jigsaw.w3.org/css-validator/">CSS validator</a>
+              </li>
+              <li>
+                <a href="https://validator.w3.org/unicorn/"
+                  >Unicorn-W3C's Unified Validator</a
+                >
+              </li>
+            </ul>
+          </div>
+        </aside>
+
+        <aside class="colu3-triptych">
+          <div class="list">
+            <h3>Related Links</h3>
+            <ul>
+              <li>
+                <a href="https://developer.mozilla.org/sv-SE/docs/Web/HTML">
+                  MDN web docs HTML</a
+                >
+              </li>
+              <li>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                  >MDN web docs CSS</a
+                >
+              </li>
+              <li>
+                <a href="https://www.w3.org/2009/cheatsheet/">W3C cheatsheet</a>
+              </li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-sm-6 col-xs-12">
+            <p class="copyright-text">
+              Copyright &copy; 2020 All Rights Reserved.
+            </p>
+            <p>Email: adam.rashdan@hotmail com</p>
+            <p>
+              <a
+                href="https://coursepress.lnu.se/kurs/introduction-to-web-programming/part-1-htmlcss-and-js/a01-build-a-website/"
+                >Course webpage</a
+              >
+            </p>
+          </div>
+          <div>
+            <ul class="social-icons">
+              <li>
+                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a>
+              </li>
+              <li>
+                <a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="scripts/main.js"></script>
+  </body>
+
+  <!-- Comments 
+  
+  
+  
+  -->
+</html>

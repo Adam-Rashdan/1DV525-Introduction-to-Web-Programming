@@ -1,0 +1,300 @@
+body {
+  margin-top: 0%;
+  background-image: url(/web/img/website.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.page-border {
+  border: solid brown 2px;
+  overflow: auto;
+}
+
+.myImg {
+  float: left;
+  padding: 10px;
+  width: 300px;
+}
+
+nav {
+  text-align: center;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  float: left;
+}
+nav a:hover {
+  background-color: gray;
+}
+
+.main-center {
+  text-align: center;
+}
+
+button {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+}
+/* button :hover {
+  background-color: gray;
+} */
+
+/* Footer Css */
+
+.site-footer {
+  padding: 45px 0 20px;
+  font-size: 15px;
+  line-height: 24px;
+  color: black;
+}
+.site-footer hr {
+  border-top-color: #bbb;
+  opacity: 0.5;
+}
+
+.site-footer a {
+  color: darkred;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+.site-footer .social-icons {
+  text-align: right;
+}
+
+/* imag page */
+
+.cont {
+  position: relative;
+  text-align: center;
+  color: black;
+  border: solid black;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 991px) {
+  .site-footer [class^="col-"] {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .site-footer {
+    padding-bottom: 0;
+  }
+  .site-footer .copyright-text,
+  .site-footer .social-icons {
+    text-align: center;
+  }
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.social-icons a {
+  background-color: #eceeef;
+  color: #818a91;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 44px;
+  width: 44px;
+  height: 44px;
+  text-align: center;
+  margin-right: 8px;
+  border-radius: 100%;
+  -webkit-transition: all 0.2s linear;
+  -o-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.social-icons a.facebook:hover {
+  background-color: #3b5998;
+}
+.social-icons a.twitter:hover {
+  background-color: #00aced;
+}
+.social-icons a.linkedin:hover {
+  background-color: #007bb6;
+}
+.social-icons a.dribbble:hover {
+  background-color: #ea4c89;
+}
+@media (max-width: 767px) {
+  .social-icons li.title {
+    display: block;
+    margin-right: 0;
+    font-weight: 600;
+  }
+}
+
+/* Table Page */
+.table-page {
+  width: 100%;
+  text-align: center;
+  border: solid black;
+}
+.odd td {
+  border: 1px solid black;
+}
+
+#pa {
+  padding-bottom: 30px;
+}
+
+.even td {
+  background-color: lightblue;
+  border: 1px solid black;
+}
+
+.head {
+  color: white;
+  background-color: black;
+}
+
+/* Site footer triptych */
+li {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.col2-triptych {
+  overflow: auto;
+  /* padding: 14px 16px; */
+  margin: 20px;
+  margin-bottom: 0mm;
+  border: solid black;
+  text-align: center;
+}
+
+.colu1-triptych {
+  /* background-color: lightslategrey; */
+  float: left;
+  width: 32%;
+}
+
+.colu2-triptych {
+  list-style-type: none;
+  /* background-color: lightsteelblue; */
+  float: left;
+  /* padding-left: 06px; */
+  width: 32%;
+}
+
+.colu3-triptych {
+  /* background-color: lightyellow; */
+  float: left;
+  width: 33%;
+}
+
+/* Column2 */
+.colu1 {
+  float: left;
+  width: 59%;
+  border-right: dotted black 1px;
+}
+
+.colu2 {
+  float: right;
+  width: 39%;
+}
+
+.col2-main {
+  overflow: auto;
+  text-align: center;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+/* Column3 */
+
+.colu1-3 {
+  float: left;
+  width: 29%;
+  border-right: double black;
+}
+
+.colu2-3 {
+  float: right;
+  width: 29%;
+}
+
+.colu3-3 {
+  float: left;
+  width: 40%;
+  border-right: double black;
+}
+
+@media only screen and (max-width: 650px) {
+  body {
+    width: auto;
+
+    background-repeat: no-repeat;
+  }
+
+  .colu1 {
+    width: 56%;
+  }
+
+  .colu3-triptych {
+    width: 32%;
+  }
+
+  .colu1-3 {
+    float: left;
+    width: 28%;
+  }
+
+  .colu2-3 {
+    float: right;
+    width: 28%;
+  }
+
+  .colu3-3 {
+    float: left;
+    width: 40%;
+  }
+
+  .navRep {
+    grid: inherit;
+  }
+
+  nav a {
+    /* display: block; */
+    text-align: left;
+    size: inherit;
+  }
+
+  .web-background {
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+}
+
+img {
+  max-width: 100%;
+}

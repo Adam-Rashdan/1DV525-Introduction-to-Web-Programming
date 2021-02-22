@@ -1,0 +1,601 @@
+/* body */
+.pos {
+  text-align: center;
+}
+
+.ulNav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  margin-bottom: 20px;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.key__button {
+  background-color: #e7e7e7; /* Green */
+  border: none;
+  color: black;
+  padding: 7px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.game__btn {
+  background-color: #4caf50; /* Green */
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+
+  font-size: 16px;
+  border-radius: 12px;
+}
+/*Hang Hill*/
+#kulle {
+  fill: #2de621;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: #35ab23;
+  stroke-width: 3;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 1;
+}
+
+.hangHill {
+  fill: none;
+  fill-rule: evenodd;
+  stroke: #116216;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+/* Hang Construction */
+.hangConstruction {
+  fill: none;
+  fill-rule: evenodd;
+  stroke: #000000;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+#path9996 {
+  fill: #e38a13;
+  fill-opacity: 1;
+  stroke: #b17903;
+  stroke-width: 1;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 1;
+}
+
+#rect13376 {
+  opacity: 1;
+  fill: #2de621;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.30000001;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.99607843;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+/* Hang Body */
+#rect12878 {
+  opacity: 1;
+  fill: #a8c1b5;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.58005786px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path12880 {
+  fill: none;
+  fill-rule: evenodd;
+  stroke: #4f0053;
+  stroke-width: 4.09754658;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 1;
+}
+
+#path12894 {
+  opacity: 1;
+  fill: #a8c1b5;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: #4f0053;
+  stroke-width: 4;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path12908 {
+  opacity: 1;
+  fill: #0036d6;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 1.86915886;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+/* Hang Right Arm */
+
+#path12915 {
+  opacity: 1;
+  fill: #a8c1b5;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 4;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path12911 {
+  fill: #a8c1b5;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+#path12913 {
+  fill: #ecdab6;
+  fill-opacity: 0.99607843;
+  fill-rule: evenodd;
+  stroke: #ecdab6;
+  stroke-width: 0.30000001;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 0.99607843;
+  filter: url(#filter13311);
+}
+
+#path12919 {
+  opacity: 1;
+  fill: #ecdbb6;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.56899005;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+/* Hang Left Arm */
+#path13323 {
+  fill: #a8c1b5;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+#path13325 {
+  fill: #ecdab6;
+  fill-opacity: 0.99607843;
+  fill-rule: evenodd;
+  stroke: #ecdab6;
+  stroke-width: 0.30000001;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-opacity: 0.99607843;
+  filter: url(#filter13311);
+}
+
+#path13327 {
+  opacity: 1;
+  fill: #ecdbb6;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.56899005;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 1;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path13329 {
+  fill: none;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+/* Hang Right Leg */
+#path13331 {
+  opacity: 1;
+  fill: #0036d6;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.11235955;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.99607843;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path13335 {
+  opacity: 1;
+  fill: #002121;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.30000001;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.99607843;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+/* Hang Left Leg */
+
+#path13348 {
+  opacity: 1;
+  fill: #0036d6;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.11235955;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.99607843;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path13350 {
+  opacity: 1;
+  fill: #002121;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.30000001;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  marker: none;
+  marker-start: none;
+  marker-mid: none;
+  marker-end: none;
+  stroke-miterlimit: 4;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  stroke-opacity: 0.99607843;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+/* Hang Rope */
+#path10043 {
+  fill: none;
+  stroke: #a77516;
+  stroke-width: 6.14400005;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path11715 {
+  fill: none;
+  stroke: #a77516;
+  stroke-width: 3.97672272;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+/* Hang Head */
+#path11721 {
+  fill: #ecdbb6;
+  fill-opacity: 1;
+  fill-rule: nonzero;
+  stroke: none;
+  stroke-width: 3.97672272;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  filter: url(#filter12239);
+  enable-background: accumulate;
+}
+
+#g11729 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-opacity: 1;
+}
+
+#path11725 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+#path11727 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+  display: inline;
+}
+
+#g11733 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-opacity: 1;
+  display: inline;
+}
+
+#path11735 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+#path11737 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 1px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+  display: inline;
+}
+
+#path11741 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 0.5800578px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path11743 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 0.5800578px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+#path11745 {
+  fill: none;
+  stroke: #693b4d;
+  stroke-width: 0.5800578px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-miterlimit: 4;
+  stroke-opacity: 1;
+  stroke-dasharray: none;
+  stroke-dashoffset: 0;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  enable-background: accumulate;
+}
+
+.hangHead {
+  fill: none;
+  stroke: #ac2900;
+  stroke-width: 0.99999994px;
+  stroke-linecap: butt;
+  stroke-linejoin: miter;
+  stroke-opacity: 1;
+}
+
+#rect11789 {
+  fill: #ecdbb6;
+  fill-opacity: 1;
+  fill-rule: evenodd;
+  stroke: none;
+  stroke-width: 0.58005786px;
+  marker: none;
+  visibility: visible;
+  display: inline;
+  overflow: visible;
+  filter: url(#filter12703);
+  enable-background: accumulate;
+}

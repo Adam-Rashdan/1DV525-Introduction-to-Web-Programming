@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Report of the assignments | 1DV525</title>
+    <link rel="stylesheet" href="style/style.css" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <a href="me.html">Me</a> | <a href="report.html">Report</a> |
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+
+    <article>
+      <header>
+        <h1>Report of the assignments</h1>
+      </header>
+
+      <section>
+        <h2>Part 00 - A00</h2>
+        <p>
+          I am using Windows 10 os, GIT BASH, and Visual Studio Code as my IDE
+          with the Prettier plugin to format the code. I used Git in my
+          first-year project when I created a <strong>bike-shop</strong> website
+          with a group of students and also in my second-year project when we
+          created a <strong>medical-appointment</strong> website. We used
+          Angular to build the <strong>bike-shop</strong> website and React js
+          to build the <strong>medical-appointment</strong> website. My TIL for
+          this course part is that I refreshed my knowledge about using Git and
+          its commands. I also figured out new ways to work with git using
+          terminal and it made me more confident with this technology. I also
+          helped my close circle of friends with their problems and overall the
+          experience of working on this assignment was fun and exciting to me.
+        </p>
+      </section>
+
+      <section>
+        <h2>Part 01 - A01</h2>
+        <p>I used HTML and CSS during my first and second year of my study.
+        HTML or (Hypertext Markup Language) is a language to design web pages by using its tags written inside angle brackets such as "img" tag or "p" tag and it can be assisted by CSS (Cascading Style Sheets) which is a technology used to design layout of HTML pages like text styles, colors and many other things. The importance of keeping HTML (markup and content) and CSS (style and layout) as two separate items is that it helps the site to be more maintainable and high performing also by organizing the CSS file makes it easy to reuse it in other HTML pages and CSS can be completely separated from HTML. My first impression of JavaScript was that it is somehow similar to the JAVA language but when I dug into JavaScript I realized that it is more flexible than java and easier to learn but it has also many things in common with JAVA.</p>
+        <P>In my, opinion JavaScript become so popular because it is a flexible and powerful programing language and can be implemented consistently by several web browsers and I think that its popularity is not overestimated since it offers a wide range of frameworks and libraries that help developers create complex applications with low overhead.</P>
+        <p>I organized my JavaScript code by implementing many functions and each function has a specific task so it is easier to reuse these function again if needed. My TIL for this course part is that I got a better understanding of CSS technology and how it works since I only used CSS frameworks before and I also refreshed my knowledge about JavaScript. </p>
+      </section>
+
+      <section>
+        <h2>Part 02 - A02</h2>
+        <p>JavaScript gives us a lot of freedom.  A function can be created at any moment, passed as an argument to another function, and then called from a totally different place of code later.  
+          </p>
+          <p>As for the scope of variables (Access variable) it dependence where we declare it. If a variable is declared inside a code block {...}, it’s only visible inside that block. But if a variable is declared outside a function, becomes GLOBAL.
+          Hosting means that we can use a variable before we declare it so The block of code is aware of the variable, using a let or const variable before it is declared will result in a ReferenceError. the closure is a function that remembers its outer variables and can access them. </p> 
+          <P>Working with Module Patterns was interesting for me, it is basically wrapping a set of variables and functions together in a single scope. As for Prototype Object Model, it gave me the same feeling as dealing with java classes with some differences of course.</P>
+
+          <p>For the Hangman game, I used Module Patterns so I wrapped all my variables and functions together in a single scope. And for the Quiz I used the prototype object model so in this way I learned how to use module design pattern and the prototype object model  </p>
+
+          <p>It was not easy to deal with Asynchronous programming especially when it comes to promises and responses. I used this technology when I built my second-year project using react. On the other hand, I can not relate it to any programming languages I have ever  learned </p>
+
+          <p> The Linter is a basic static code analyzer and it is important to reduce errors and improve the overall quality of your code. So by using lit tools you can reduce costs by finding errors earlier. I can relate it to compiler in java.   </p>
+
+          <p>My TIL for this course part is I got a better understanding of the Javascript variable scope. Also, I learned how to use the module design pattern and the prototype object model in Javascript. Furthermore, I got a better understanding of Asynchronous programming and lint technology  </p>
+      </section>
+
+      <section>
+        <h2>Part 03 - A03</h2>
+
+        <h4>PWD Functional requirements</h4>
+
+        <p>
+          I implemented my application following the single page application approach which is an app that does not need to reload the page
+        during its use and works within a browser
+      </p>
+
+        <p>
+          To fulfill the functionality of multiple windows within the application, I implemented a class named
+          <strong style="color: red">draggableElement.js</strong> that can create a draggable window and able to take other classes in it. I got the idea of my
+          implementation from the<a href="https://www.w3schools.com/howto/howto_js_draggable.asp" style="text-decoration: none"> W3Schools website</a>.
+        </p>
+
+          <p>
+            So basically the window created by this class is draggable and movable inside the PWD. Moreover, I have an icon in the navbar for each application,
+          each icon opens its application by clicking on it, and for each application there is a close button icon on the right upper corner of the window. This
+        close button icon uses a method called removeHandler () to close the desirable window. 
+      </p>
+
+        <p>
+          As for the focus functionality, I implemented two methods inside draggableElement.js named focusWindowHandler () and unFocusWindowHandler (), those two methods
+          add and remove a red solid border to the perimeter of the app window.
+        </p>
+
+        <h4>PWD Non functional requirements</h4>
+        <p>
+          In my git commit history, I have 44 commits, so basically, each time I brought some changes to my code or I add new class I commit my changes and push it to git lab.
+          Hence it is easy to roll back to my old code in case something went wrong
+        </p>
+
+        <p>
+          My code is following standard.js code standard. For example I am using single quotes for strings, use two spaces for indentation etc.
+        </p>
+
+        <p>
+          I used JSDoc to comments all my functions and class. My linters is passing without errors when i run npm test, the code is following ES modules approach
+        and the application is visually appealing by using css.
+      </p>
+
+        <h4>Memory game window application</h4>
+        <p>
+            For the memory game i created a Memory.js file which contains an exported function, and inside this function i have all the needed method
+            to create the game that can be adjustable to any desirable size. For instance I implemented a method called turnBrickHandler () to turn the bricks and remove
+            them in case they are similar or turn them back in case they are not. Along with the shuffleArray () method which creates a shuffles picture array for the game.
+         </p>
+
+        <p>
+            The user is able to open and play multiple memory games simultaneously by the helping of draggableElement class. Basically each time the user click on the memory
+            game icon the draggableElement class created a new window and new instance of the game inside this window. The user can play the game using the mouse and each game has
+            counter to count the number of tries that user did to win the game 
+       </p>
+
+        <h4>Chat window application</h4>
+
+        <p>
+            For the chat application, I created a chat-app.js class which inherited the window.HTMLElement class. Inside this class,
+            I created the proper constructor and used the information provided by the teacher like the web socket and API to connect with the server. <br>
+            Also, I created all the needed method to make this app work properly such as the receiveHandler () method which handles the received data form websocket by formatting it
+            and then show it to the user also specify the maximum number of messages, messageTimeHandler () which shows the time of chat next to messages and many other methods.
+            <br><br>
+            The user is able to have several chat applications running at the same time by the helping of draggableElement class.
+            <br>When the user open the application for the first time, user is asked to enter his/her username with the helping of sendHandler () method which
+            checks user name and save it in the local storage. So the username remains the same the next time the user starts a chat application or the PWD is restarted.
+            <br>The user is be able to send chat messages using a textarea, The user is also able to see up to 50 latest messages since the chat applications was opened.
+            Also the user is able to change the user name in any time.
+        </p>
+
+        <h4>An additional window application</h4>
+
+        <p>I implemented two more applications as an An additional window application
+          <ul>
+            <li>First application is Camera.js:  <br>
+                A simple class that inherit window.HTMLElement and create a simple camera application. I created the HTML for this class dynamically
+              each time the user run this app.  The user is able to have several camera applications running at the same time with  the helping of draggableElement class.
+              When the user open the application for the first time, the app request the user permission to open the camera.
+              Also the class has a method named cameraFiltersHandler () which applying a random filter each time
+              the user click apply filter button. Along with removeFilterHandler () method which delete the applied filter.
+            </li>
+            <li>
+              Second application is ChalkBoard.js: <br>
+              A simple class which simulating a chalkboard, when the user clicks on the chalkboard, it filled with a specific text.
+              The user is able to have several chalkboard applications running at the same time with the helping of draggableElement class.
+              Also, the HTML for this class is dynamically created each time the user runs this app.
+              The class has a method named wipeBoardHandler () which wipes the board in case there is no more space for text.
+            </li>
+         </ul>
+        </p>
+
+        <br>
+
+        <p>
+          In conclusion, it was not easy to implement this project since it has many new features that I have no experience with. The most tricky part was implementing the multiple windows and make it draggable. But after watching lots of youtube videos and reading the W3school documentation I managed to do it.
+          Also, it was a bit hard to figure out how to run the other application inside the multiple windows and I had a bunch of errors each time I was trying to do it.
+        </p>
+
+        <p>
+          My TIL for this part of the course is that I am more familiar now with building SPA.
+          I also learned many new things about javascript like standard.js and ES modules. As well as that I learned more about linters.
+        </p>
+
+        <p><a href="https://drive.google.com/drive/folders/1gTdg7waKFv1TmAt9n33aqCkGSmyHi_pW?usp=sharing" style="font-size:x-large">Presentations Link</a></p>
+
+      </section>
+
+      <section>
+        <h2>Final words</h2>
+        <p>
+          I really enjoyed having this course. Mikael Roos's efforts made this course works in the best way possible. I gained lots of knowledge about javascript, CSS, and HTML
+          and I believe this knowledge will help me to improve my skills more in the web programming field. I will grade this course 10  out of 10 because it was really useful and interesting
+        </p>
+      </section>
+
+      <footer class="site-footer">
+        <hr />
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">
+                Copyright &copy; 2020 All Rights Reserved.
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li>
+                  <a class="facebook" href="#"
+                    ><i class="fa fa-facebook"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a class="dribbble" href="#"
+                    ><i class="fa fa-dribbble"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="linkedin" href="#"
+                    ><i class="fa fa-linkedin"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </article>
+
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
